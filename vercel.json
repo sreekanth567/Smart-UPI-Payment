@@ -1,1 +1,7 @@
-{\n  "root": "3d-portfolio",\n  "build": {\n    "outDir": "dist",\n    "rollupOptions": {\n      "input": "./3d-portfolio/index.html"\n    }\n  }\n}
+{
+  "version": 2,
+  "buildCommand": "cd 3d-portfolio && npm install && npm run build",
+  "outputDirectory": "3d-portfolio/dist",
+  "framework": "vite",
+  "installCommand": "npm install"
+}
