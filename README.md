@@ -1,2 +1,12 @@
-# Smart-UPI-Payment
-Create a modern, fully functional UPI-style payment simulation web app that demonstrates all core ReactJS syllabus concepts while maintaining excellent UI/UX and clean architecture. The app should mimic real-world apps like PhonePe or Google Pay in design and flow, but use simulated (fake) transactions.
+# Navigate to your project directory
+cd Smart-UPI-Payment
+
+# Create a README.md file
+echo "# Smart UPI Payment
+
+This is a modern UPI-style payment simulation web app built with ReactJS." > README.md
+
+# Add and commit
+git add README.md
+git commit -m "Add README.md"
+git push origin main
