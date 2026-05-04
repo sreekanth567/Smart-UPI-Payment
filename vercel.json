@@ -1,0 +1,1 @@
+{\n  "root": "3d-portfolio",\n  "build": {\n    "outDir": "dist",\n    "rollupOptions": {\n      "input": "./3d-portfolio/index.html"\n    }\n  }\n}
