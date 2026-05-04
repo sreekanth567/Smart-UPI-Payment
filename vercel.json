@@ -1,7 +1,1 @@
-{
-  "version": 2,
-  "buildCommand": "cd 3d-portfolio && npm install && npm run build",
-  "outputDirectory": "3d-portfolio/dist",
-  "framework": "vite",
-  "installCommand": "npm install"
-}
+{"version": 2, "root": "3d-portfolio", "buildCommand": "npm run build", "outputDirectory": "dist", "framework": "vite"}
