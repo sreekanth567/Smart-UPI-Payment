@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 font-sans;
+}
+
+/* PhonePe Gradient */
+.phonepe-bg {
+  background: linear-gradient(135deg, #5f259f, #7c3aed);
+}
+
+/* Buttons */
+.btn-pay {
+  @apply w-full py-3 rounded-xl text-white font-semibold bg-purple-600 hover:bg-purple-700 transition;
+}
+
+/* Cards */
+.card {
+  @apply bg-white rounded-2xl shadow-md p-5;
+}
+
+/* Status */
+.success {
+  @apply text-green-600 font-semibold;
+}
+
+.failed {
+  @apply text-red-600 font-semibold;
+}
